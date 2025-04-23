@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnliokpyh3ycl"]
+
+[ext_resource type="Script" uid="uid://bt6s344kvu7p4" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://bt6s344kvu7p4"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(0.367995, 0.256629, 0.497121, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.015
+offset_left = 5.0
+offset_top = 368.0
+offset_right = 1263.8
+offset_bottom = 663.0
+theme_override_font_sizes/font_size = 80
+text = "BEM VINDO AO MEU JOGO"
+horizontal_alignment = 1
+vertical_alignment = 1
